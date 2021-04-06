@@ -1,0 +1,11 @@
+{
+  "name": "ts_template",
+  "version": "0.0.1",
+  "description": "ts template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yusuke Mitsui",
+  "license": "ISC"
+}
