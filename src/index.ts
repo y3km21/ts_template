@@ -1,7 +1,7 @@
 import * as _ from "lodash";
 import "./style/reset.scss";
 import "./style/main.scss";
-const hoge = require("./ts/hoge");
+const hoge = require("./ts/description");
 
 const heading_div = document.createElement("div");
 heading_div.id = "heading";
