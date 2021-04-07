@@ -1,10 +1,16 @@
 import * as _ from "lodash";
 import "./style/reset.scss";
+import "./style/main.scss";
 const hoge = require("./ts/hoge");
 
-const hello_div = document.createElement("div");
-hello_div.id = "test";
-hello_div.textContent = "Hello!";
-document.body.appendChild(hello_div);
+const heading_div = document.createElement("div");
+heading_div.id = "heading";
+heading_div.textContent = "TS Template!";
 
-hoge.addDiv();
+const wrapper = document.createElement("div");
+wrapper.className = "wrapper";
+wrapper.appendChild(heading_div);
+wrapper.appendChild(hoge.addDiv());
+
+document.body.appendChild(wrapper);
+//hoge.addDiv();

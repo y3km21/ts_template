@@ -1,0 +1,33 @@
+@import "variables";
+
+body {
+  background-color: $background-color1;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+%text {
+  justify-content: center;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#heading {
+  @extend %text;
+  padding: 0.6em;
+  font-size: 2em;
+  background-color: dodgerblue;
+}
+
+#description {
+  @extend %text;
+  padding: 0.6em;
+  font-size: 1em;
+  background-color: $sub-color0;
+}
